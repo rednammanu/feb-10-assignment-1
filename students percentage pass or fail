@@ -1,0 +1,9 @@
+stdname = str(input("enter the student name"))
+stdno = int(input("enter the student rollno"))
+er, rt = int(input("enter mrks in data science")), int(input("enter mrks in computer science"))
+ty, ui  = int(input("enter mrks in statistics")), int(input("enter marks in e.s"))
+op, iu = int(input("enter marks in o.b")), int(input("enter mrks in crt"))
+if er >= 35 and rt >=35 and  ty >= 35 and ui >= 25 and op >= 25 and iu >= 25:
+    print("pass")
+else:
+    print("fail")
